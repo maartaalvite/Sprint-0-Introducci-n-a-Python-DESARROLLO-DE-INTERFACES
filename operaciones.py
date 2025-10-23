@@ -12,6 +12,3 @@ def division(num1, num2):
         return "Infinito"
     else:
         return num1 / num2
-    return num1 / num2
-
-if __name__ == '__main__':
