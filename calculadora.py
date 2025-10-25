@@ -30,11 +30,11 @@ def calculadora():
         else:
             print("Opción inválida.")
 
-        continuar = input("\n¿Deseas realizar otra operación? (s/n): ")
-
+        continuar = input("\n¿Deseas realizar otra operación? (s/n): ").lower()
     print("¡Hasta luego!")
 
 
 #El if main sirve para ejecutar el codigo que haya dentro de el
 if __name__ == "__main__":
     calculadora()
+
